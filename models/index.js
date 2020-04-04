@@ -1,3 +1,3 @@
 module.exports = {
-  Speech: require("./speech")
+  Sentence: require("./sentence")
 };

@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-// import API from "../../utils/API";
+import API from "../../utils/API";
 import SpeechRecognition from "react-speech-recognition";
 import "./Dictaphone.css";
 
@@ -43,7 +43,6 @@ const Dictaphone = ({
   recognition.onstart = function() {
     console.log("Speech recognition service has started");
   };
-
 
   return (
     <div>

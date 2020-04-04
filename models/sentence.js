@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const speechSchema = new Schema({
+const sentenceSchema = new Schema({
   sentence: { type: String, required: true },
   date: { type: Date, default: Date.now }
 });
 
-const Speech = mongoose.model("Speech", speechSchema);
+const Sentence = mongoose.model("Sentence", sentenceSchema);
 
-module.exports = Speech;
+module.exports = Sentence;
