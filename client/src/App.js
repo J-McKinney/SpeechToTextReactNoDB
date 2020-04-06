@@ -1,10 +1,12 @@
 import React from "react";
-import Dictaphone from "./components/SpeechRecognition/Dictaphone"
+import Dictaphone from "./components/SpeechRecognition/Dictaphone";
+import Recorder from "./components/Recorder/Recorder";
 
 function App() {
   return (
     <div>
-    <Dictaphone />
+      <Recorder />
+      <Dictaphone />
     </div>
   );
 }
